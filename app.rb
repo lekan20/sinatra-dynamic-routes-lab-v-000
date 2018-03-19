@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   get '/square/:number' do
-    
+    binding.pry
   end
 
 end
